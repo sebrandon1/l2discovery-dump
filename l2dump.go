@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/openshift/ptp-operator/test/utils/client"
-	"github.com/test-network-function/l2discovery/l2lib"
+	l2lib "github.com/test-network-function/l2discovery-lib"
 )
 
 func main() {

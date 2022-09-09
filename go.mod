@@ -1,16 +1,10 @@
-module github.com/test-network-function/l2discovery/apps/l2dump
+module github.com/test-network-function/l2discovery-dump
 
 go 1.18
 
-replace (
-	github.com/openshift/ptp-operator/utils/client => github.com/edcdavid/ptp-operator/utils/client v1.0.0
-	github.com/test-network-function/l2discovery/l2lib => ../../l2lib
-	github.com/test-network-function/l2discovery/l2lib/pkg/export => ../../l2lib/pkg/export
-)
-
 require (
 	github.com/openshift/ptp-operator v0.0.0-20220907171633-564febae1c75
-	github.com/test-network-function/l2discovery/l2lib v0.0.0-00010101000000-000000000000
+	github.com/test-network-function/l2discovery-lib v0.0.0-20220909222910-ff616a209e19
 )
 
 require (
@@ -52,7 +46,7 @@ require (
 	github.com/prometheus/procfs v0.7.3 // indirect
 	github.com/sirupsen/logrus v1.9.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	github.com/test-network-function/l2discovery/l2lib/pkg/export v0.0.0-00010101000000-000000000000 // indirect
+	github.com/test-network-function/l2discovery-exports v0.0.0-20220909220625-69bfab4b0fc1 // indirect
 	github.com/test-network-function/privileged-daemonset v1.0.0 // indirect
 	github.com/yourbasic/graph v0.0.0-20210606180040-8ecfec1c2869 // indirect
 	golang.org/x/net v0.0.0-20220722155237-a158d28d115b // indirect
