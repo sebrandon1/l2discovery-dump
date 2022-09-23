@@ -1,6 +1,6 @@
 module github.com/test-network-function/l2discovery-dump
 
-go 1.18
+go 1.19
 
 require (
 	github.com/openshift/ptp-operator v0.0.0-20220907171633-564febae1c75
