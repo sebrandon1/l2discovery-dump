@@ -8,5 +8,5 @@ import (
 func main() {
 	client.Client = client.New("")
 	l2lib.GlobalL2DiscoveryConfig.SetL2Client(client.Client, client.Client.Config)
-	_, _ = l2lib.GlobalL2DiscoveryConfig.GetL2DiscoveryConfig()
+	_, _ = l2lib.GlobalL2DiscoveryConfig.GetL2DiscoveryConfig(false)
 }

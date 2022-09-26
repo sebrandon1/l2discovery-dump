@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/openshift/ptp-operator v0.0.0-20220922002031-4e588c96d5d6
-	github.com/test-network-function/l2discovery-lib v0.0.0-20220923165621-0bf88d75cbb2
+	github.com/test-network-function/l2discovery-lib v0.0.0-20220926191411-f26c4946f1fc
 )
 
 require (
@@ -46,7 +46,7 @@ require (
 	github.com/prometheus/procfs v0.7.3 // indirect
 	github.com/sirupsen/logrus v1.9.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	github.com/test-network-function/l2discovery-exports v0.0.0-20220923161031-1d53fe9e13dc // indirect
+	github.com/test-network-function/l2discovery-exports v0.0.0-20220926190927-5f72a82c96d4 // indirect
 	github.com/test-network-function/privileged-daemonset v0.0.0-20220923160818-f61f26ba4b41 // indirect
 	github.com/yourbasic/graph v0.0.0-20210606180040-8ecfec1c2869 // indirect
 	golang.org/x/net v0.0.0-20220722155237-a158d28d115b // indirect
